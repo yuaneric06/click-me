@@ -2,10 +2,24 @@ body,
 html {
   background-color: #1f1f1f;
   color: white;
-  font: "Fira Code";
+  font-family: "Fira Code";
 }
 
-button {
-  display: block;
-  margin: auto auto;
+#root,
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+p {
+  position: absolute;
+  top: 60%;
+}
+
+main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
